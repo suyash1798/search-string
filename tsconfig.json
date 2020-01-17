@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "magic-strings": [
+        "dist/magic-strings"
+      ],
+      "magic-strings/*": [
+        "dist/magic-strings/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
